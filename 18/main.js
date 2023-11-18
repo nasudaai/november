@@ -1,4 +1,8 @@
 function main() {
+  f('main');
+  func(f,'main: callback')
+
+  return 'main function';
 
 }
 
@@ -13,3 +17,9 @@ function f(arg) {
 f('arg');
 
 func(f,'func: callback');
+
+
+main()
+const r = main()
+
+console.log(r)
