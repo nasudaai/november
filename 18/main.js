@@ -2,8 +2,8 @@ function main() {
 
 }
 
-function func(f) {
-  f()
+function func(f, arg) {
+  f(arg)
 }
 
 function f(arg) { 
@@ -11,3 +11,5 @@ function f(arg) {
 }
 
 f('arg');
+
+func(f,'func: callback');
