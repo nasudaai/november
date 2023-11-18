@@ -6,8 +6,8 @@ function func(f) {
   f()
 }
 
-function f() { 
-  console.log('f')
+function f(arg) { 
+  console.log(arg)
 }
 
-f();
+f('arg');
