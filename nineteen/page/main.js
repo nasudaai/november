@@ -1,3 +1,4 @@
+import { button } from './button.js'
 console.log('main')
 
 const root = document.getElementById('root')
@@ -8,3 +9,4 @@ test.innerText = 'Test text'
 
 root.appendChild(test)
 
+root.appendChild(button)
