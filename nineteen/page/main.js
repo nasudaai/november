@@ -10,3 +10,8 @@ test.innerText = 'Test text'
 root.appendChild(test)
 
 root.appendChild(button)
+
+
+button.addEventListener('click', () => {
+  alert('Event listen Ok?')
+})
