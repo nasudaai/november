@@ -1,9 +1,16 @@
 //put each character into an array
 
-const str = 'string';
-const arrStr = [];
-for (const s of str) {
-  arrStr.push(s)
+function convertStrToArray(string) {
+    const str = string; 
+    const arrayContainingCharacters = [];
+    for (const s of str) {
+        arrayContainingCharacters.push(s)
+    }
+    return arrayContainingCharacters;
 }
+
+
+const arrStr = convertStrToArray('string')
+
 
 console.log(arrStr)
