@@ -1,4 +1,4 @@
-console.log('script')
+//console.log('script')
 
 const arr = []
 
@@ -8,3 +8,8 @@ for (let i = 1; i <= 10; i = i + 1) {
 }
 
 console.log(arr)
+
+
+arr.forEach((n) => {
+  console.log(n)
+})
