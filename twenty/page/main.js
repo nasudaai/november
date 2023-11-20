@@ -1,17 +1,21 @@
-//console.log('js')
-//alert('ok')
+import { render } from './src/render.js'
 
+//const root = document.getElementById('root')
 
-const root = document.getElementById('root')
-
+/*
 function render(elm) {
 //
   root.appendChild(elm)
 }
+*/
 
 
 const title = document.createElement('h2')
 title.innerText = 'Title'
 
 
-render(title)
+render('root', title)
+
+console.log(title)
+
+
